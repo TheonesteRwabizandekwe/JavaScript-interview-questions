@@ -34,7 +34,7 @@ function getCD(x, y) {
     let mid = Math.floor(max / 2); //3
     let _divisor = [];
     for (let i = mid; i > 0; i--) {
-      if (max % i === 0 && min & (i === 0)) {
+      if (max % i === 0 && min % i === 0) {
         //0 &&
         return i;
       }
